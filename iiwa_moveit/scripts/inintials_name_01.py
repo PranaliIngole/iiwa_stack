@@ -21,6 +21,7 @@ print(initial_pose)
 waypoints = []
 
 # Define the Cartesian path for the "P" letter
+#keep z value fixed, change x and y within 0.2
 initial_pose.position.x = 0.0
 initial_pose.position.y = 0.0
 initial_pose.position.z = 1
