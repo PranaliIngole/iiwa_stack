@@ -16,7 +16,7 @@ group = moveit_commander.MoveGroupCommander("manipulator")
 # Define the initial pose
 initial_pose = group.get_current_pose().pose
 print(initial_pose)
-
+#make changes in waypoints only
 # Define the waypoints for the "P" letter
 waypoints = []
 
